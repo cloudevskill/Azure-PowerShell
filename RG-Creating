@@ -1,0 +1,6 @@
+$ResourceGroupName = "powershell"
+$location = "eastus2"
+
+New-AzResourceGroup -Name $ResourceGroupName -Location $location
+
+#Added
