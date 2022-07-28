@@ -13,4 +13,3 @@ Connect-AzAccount -ServicePrincipal -Credential $credential -Tenant $tenantid
 
 New-AzResourceGroup -Name $RG -Location $location
 
-#Test
